@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 *{
-    margin: 0%;
+margin: 0%;
 }
 header{
     background-color: black;
@@ -15,12 +15,55 @@ header > a{
     color: white;
     font-weight: bolder;
 }
-#passion{
-    font-family: "Passion One",serif ;
 
+#passion{
+    font-family: 'Passion One' ,serif ;
     font-style: normal;
+    font-size: 40pt;
+}
+main{
+    font-family: 'sriracha', serif;
+    min-width: 320px;
+    max-width: 1000px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-top: 60px;
+    font-size: 17pt;
+    margin: auto;
 }
 article{
-    background: url(imagens/background001.jpg) p;
+    color: white;
+    background: url(imagens/background001.jpg) center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+div{
+    color: white;
+    background: url(imagens/background002.jpg) center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+p.espaco{
+    padding-bottom: 60px;
+}
+article#texto1{
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 300px;
+    padding: 0%;
+    background-image: none;
+}
+#texto2{
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 300px;
+    padding: 0%;
+    background-image: none;
+}
+footer{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    margin: auto;
+
 
 }
